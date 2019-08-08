@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Quicksand', serif;
+    font-size: 70px;
+    margin: 0.2em;
+    background: -webkit-linear-gradient(#ff5050, #ff6600, #ffcc00, #009999, #0033cc, #0066ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-family: 'Dosis', serif;
+    font-size: 25px;
+    color: #0066cc;
+    margin: 1em 0 0.5em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+#sizePicker {
+    font-family: 'Dosis', serif;
+    font-weight: bold;
+    color: #0066cc;
+    font-size: 20px;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
